@@ -10,7 +10,7 @@
     return "no one likes this";
   }
   else if  (count === 1) {
-    return names[0] + " likes this";
+    return names[0] + " likes this";// this is where I was learning that I had to add a space then write " like"
   } 
   else if (count === 2) {
     return names[0] + " and " + names[1] + " like this";
@@ -25,5 +25,6 @@
     return names[0] + ", " + names[1] + " and " + othersCount + " others like this";
   }
 }
-// this Paticular problems was a bit difficult to grasp only because there was 
+// this Paticular problems was a bit difficult to grasp only because there was a lot of if statements ia had to run.
+// the other problem I was having was making sure there was correct spacing in the begining of the words or else they would be combined and not legiable. 
 // a lot of checks "else if" I had to grab. 

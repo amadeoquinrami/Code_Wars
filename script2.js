@@ -1,7 +1,7 @@
 //Create a function that takes an integer as an argument and returns "Even" for even numbers or "Odd" for odd numbers.
 function evenOrOdd(number) {
     if(number % 2 == 0) { // 1) I knew I had to use a modulus (%)
-      return "Even";
+      return "Even"; // putting the return often confuses me because I know it exits a function scope.
 } else {
   return "Odd";
 }

@@ -6,4 +6,5 @@ function filter_list(l) {
   });
 }
 // 1) when working on this problem my way of thinking of is create the filter function because it returns the array not just a single one.
-// 2) The problem comes when I forget that I need to utilize the return.  
+// 2) The problem comes when I forget that I need to utilize the return. 
+// I know with certain methods you either use the retun within the scope or outside. 
